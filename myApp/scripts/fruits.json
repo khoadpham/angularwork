@@ -1,0 +1,22 @@
+[
+  {
+    "id": "test1",
+    "rank": 1,
+    "icon": "./img/apple.svg",
+    "displayName": "Apple"
+  }, {
+    "id": "test2",
+    "rank": 2,
+    "icon": "./img/banana.svg",
+    "displayName": "Banana"
+  }, {
+    "id": "test3",
+    "rank": 3,
+    "icon": "./img/orange.svg",
+    "displayName": "Orange"
+  }, {
+    "id": "test4",
+    "rank": 4,
+    "icon": "./img/pineapple.svg",
+    "displayName": "Pineapple"
+}]

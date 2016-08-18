@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="scripts/script.js"></script>
+</head>
+<body ng-App="fruitsApp">
+<div class="container" ng-controller="fruitsController">
+    <ul>
+        <li ng-repeat="fruit in fruits">
+            <span>{{fruit.id}}</span>
+            <span>Rank: {{fruit.rank}}</span>
+            <img ng-src="{{fruit.icon}}">
+            <span>{{fruit.displayName}}</span>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
