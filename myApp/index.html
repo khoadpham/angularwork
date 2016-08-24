@@ -10,10 +10,8 @@
 <body ng-App="fruitsApp">
 <div class="container" ng-controller="fruitsController">
     <ul>
-        <li ng-repeat="fruit in fruits">
-            <span>{{fruit.id}}</span>
-            <span>Rank: {{fruit.rank}}</span>
-            <img ng-src="{{fruit.icon}}">
+        <li ng-repeat="fruit in fruits | orderBy:rank" ng-attr-id="{{fruit.id}}">
+            <img ng-src="{{fruit.icon}}" alt="">
             <span>{{fruit.displayName}}</span>
         </li>
     </ul>
